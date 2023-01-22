@@ -160,7 +160,7 @@ section.images .circle {
     transition: all .3s ease-in-out;    
 }
 
-a:hover{
+.botoes:hover{
     background-color: #dad7d7;
     color: black;
 }

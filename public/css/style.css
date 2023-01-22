@@ -138,7 +138,7 @@ main form input[type="submit"]:hover {
     transition: all .3s ease-in-out;
 }
 
-a:hover{
+.botoes:hover{
     background-color: #dad7d7;
     color: black;
 }
