@@ -78,6 +78,21 @@ main .alternative span::after {
     left: 50px;
 }
 
+.botoes{
+    cursor: pointer;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #2e98c5;
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;    
+    width: 100%;
+}
+
 main form {
     display: flex;
     flex-direction: column;
@@ -101,19 +116,17 @@ main form input {
     padding: 0 0.5rem;
     margin-top: 1rem;
     outline: none;
-    color: rgb(255, 255, 255);
     font-size: 1rem;
     border: 1px solid #ffffff;
     border-radius: 8px;
 }
 
-main form input[type="submit"] {
+.entrar form input[type="submit"] {
     cursor: pointer;
     width: 50%;
     margin-top: 4rem;
     border: none;
     border-radius: 32px;
-    background: #ffffff;
     color: rgb(0, 0, 0);
     font-size: 1.1rem;
     transition: all .3s ease-in-out;
@@ -146,21 +159,9 @@ section.images .circle {
     z-index: -1;
 }
 
-.botoes{
-    cursor: pointer;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-weight: 400;
-    margin-top: 4rem;
-    border: none;
-    border-radius: 32px;
-    background: #2e98c5;
-    color: rgb(255, 255, 255);
-    font-size: 1.1rem;
-    transition: all .3s ease-in-out;    
-}
 
-.botoes:hover{
+
+a:hover{
     background-color: #dad7d7;
     color: black;
 }

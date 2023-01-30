@@ -4,25 +4,25 @@
     <main>
         <h1>BarberTime</h1>
         
+        <div class="entrar">
+            <form action="/entrar" method="post">
+            
+                <label for="email">
+                    <span>E-mail</span>
+                    <input type="email" id="email" name="email">
+                </label>
 
-        <form action="/entrar" method="post">
-          
-            <label for="email">
-                <span>E-mail</span>
-                <input type="email" id="email" name="email">
-            </label>
+                <label for="senha">
+                    <span>Senha</span>
+                    <input type="password" id="senha" name="senha">
+                </label>
 
-            <label for="senha">
-                <span>Senha</span>
-                <input type="password" id="senha" name="senha">
-            </label>
-
-            <input type="submit" value="Entrar" id="button">
+                <input type="submit" value="Entrar" id="button" class="entrar">
 
 
-            <input type="submit" value="Esqueci senha" id="button">
-        </form>
-
+                <input type="submit" value="Esqueci senha" id="button" class="nova_senha">
+            </form>
+        </div>
         <form action="/cadastro" method="get">
             <input type="submit" value="Criar Conta " id="button" class="botoes">
         </form>
